@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         /*Adding actions to Buttons when pressed */
         /*use onClickListener{} - now button is waiting to be clicked*/
         /*write actions/code in {}*/
-        
+
         /*Add to counter*/
         addBtn.setOnClickListener{
             /*everytime addButton is clicked add 1*/
@@ -79,6 +79,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
 
 }

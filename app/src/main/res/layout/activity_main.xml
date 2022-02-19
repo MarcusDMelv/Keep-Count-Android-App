@@ -25,6 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="-40dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:fontFamily="monospace"
         android:text="Add "
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,6 +39,8 @@
         android:id="@+id/subtractButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+        android:fontFamily="monospace"
         android:text="Take Away"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +53,7 @@
         android:id="@+id/resetButton"
         android:layout_width="317dp"
         android:layout_height="48dp"
+        android:fontFamily="monospace"
         android:text="Reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,5 +61,21 @@
         app:layout_constraintTop_toBottomOf="@+id/subtractButton"
         app:layout_constraintVertical_bias="0.939"
         app:rippleColor="@color/black" />
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="388dp"
+        android:layout_height="160dp"
+        android:background="@color/purple_500"
+        android:fontFamily="monospace"
+        android:text="Keep Count!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
